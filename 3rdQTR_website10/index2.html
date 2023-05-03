@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Group 9 Lifelabs PBA</title>
+    <link rel="stylesheet" href="sticky.css">    
+    <link rel="html" href="about.html">
+    <link rel="html" href="third.html"> 
+    <link rel="html" href="events.html"> 
+    <link rel="html" href="fourth.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+     integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Kanit&family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kanit&family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <!--Navigation Bar-->
+        <div class="wrapper" id="home">
+            <header>
+                <nav>
+                    <div class="menu-bar">
+
+
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li>
+                            <a href="#content">Content <i class="fas fa-caret-down"></i> </a>
+                        <!--DROPDOWN MENU-->
+                         <div class="dropdown_menu">
+                            <ul>
+                                <li><a href="third.html">2nd Quarter</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="fourth.html">4th Quarter</a></li>
+                            </ul>
+                         </div>
+
+                        <li><a href="about.html">About Us</li>
+                        <li><a href="#contact">Contacts</a></li>
+                        <li><a href="events.html">Events</a></a></li>
+                    </ul>
+                  </div>                  
+              </nav>
+            </div>
+              <!--Nav end-->
+            </header>
+
+            <section class="slide5" id="contact">
+                    <center><h1 class="headings">Contacts</h1></center>
+                    <form action="" class="form">
+                        <input type="text" name="name" class="input" placeholder="Enter your name">
+                        <input type="email" name="email" class="input" placeholder="Enter your email">
+                        <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                        <input type="submit" value="Send" id="send">
+                    </form>
+                    <p> Email: serraconsole@gmail.com || Facebook Channel: Serra Console</p>
+                </section>
+             
+            </section>
+
+        <!--JAVA-->
+        <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+        <script>
+            $(window).scroll(function(){
+                if($(window).scrollTop()){
+                    $("nav").addClass("black");
+                }
+                else{
+                    $("nav").removeClass("black");
+                }
+            });
+
+        </script>
+    </body>
+    </html>
+        
+
